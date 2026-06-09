@@ -1,4 +1,4 @@
-FROM swift:6.2.0-noble as build
+FROM swift:6.3.1-noble as build
 
 ENV DEBIAN_FRONTEND=noninteractive
 RUN <<-SHELL /bin/bash -eo pipefail
